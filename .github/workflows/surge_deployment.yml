@@ -41,7 +41,7 @@ jobs:
         run: npm install --global surge
         
       - name: Deploy to surge
-        run: surge ./build project2.surge.sh ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build project2.surge.su ${{ secrets.SURGE_TOKEN }}
             
 
       # Runs a single command using the runners shell
