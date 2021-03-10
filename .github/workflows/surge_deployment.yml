@@ -40,16 +40,6 @@ jobs:
       - name: Install Surge
         run: npm install --global surge
         
-      - name: Deploy to surge
-        run: surge ./build project2.surge.su ${{ secrets.SURGE_TOKEN }}
+      - name: Deploy React App to surge
+        run: surge ./build project2-aiman.surge.sh --token ${{ secrets.SURGE_TOKEN }}
             
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
