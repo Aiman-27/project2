@@ -22,4 +22,3 @@ jobs:
         run: npm install -g surge
       - name: Run surge
         run: surge ./build project2_aiman.surge.sh --token ${{ secrets.SURGE_TOKEN }}
-            
