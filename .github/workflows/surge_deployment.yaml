@@ -34,7 +34,7 @@ jobs:
         cmd: install
         
     - name: Build React App
-      uses: linchpin/action-build-yarn@main
+      uses: linchpin/action-build-yarn-npm@main
     
       
     - name: Install Surge
