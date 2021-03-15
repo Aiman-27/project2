@@ -40,4 +40,4 @@ jobs:
       run: npm install --global surge
 
     - name: Deploy to Surge
-      run: surge ./ aiman_react-project2.surge.su --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./ aiman_react-project2.surge.sh --token ${{ secrets.SURGE_TOKEN }}
