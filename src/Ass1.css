@@ -1,0 +1,23 @@
+.react {
+    padding-top: 20px;
+    padding-left: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+p b {
+    color: maroon;
+}
+
+
+.ul li {
+    text-decoration: none;
+}
+
+small {
+    color: midnightblue;
+}
+
+.close {
+    color: green;
+}
